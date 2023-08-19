@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Spotify - Your Favourite Music Is Here</title>
+    <link href="Index.css" rel="stylesheet" type="text/css" />
+   
+    <link href="Media.css" rel="stylesheet" type="text/css" /> <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" 
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="menuside">
+        <h6 id="menulistactivebutton">
+          <i class="bi bi-music-note-list"></i>
+        </h6>
+        <h1>Playlist</h1>
+        <div class="playlist">
+          <h4 class="active">
+            <span></span> <i class="bi bi-music-note-beamed">Playlist</i>
+          </h4>
+          <h4>
+            <span></span> <i class="bi bi-music-note-beamed">Last Song</i>
+          </h4>
+          <h4>
+            <span></span> <i class="bi bi-music-note-beamed">Recommended</i>
+          </h4>
+        </div>
+
+        <div class="menusong">
+          <li class="songItem">
+            <span>01</span>
+            <img src="1.jpg" alt="" />
+            <h5>Be With You <br /></h5>
+            <i class="bi playlistplay bi-play-circle-fill" id="1"></i>
+          </li>
+
+          <li class="songItem">
+            <span>02</span>
+            <img src="1.jpg" alt="" />
+            <h5>Chal Wahan Jaate Hain <br /></h5>
+            <i class="bi playlistplay bi-play-circle-fill" id="2"></i>
+          </li>
+
+          <li class="songItem">
+            <span>03</span>
+            <img src="1.jpg" alt="" />
+            <h5>Kabhi Jo Badal Barse <br /></h5>
+            <i class="bi playlistplay bi-play-circle-fill" id="3"></i>
+          </li>
+
+          <li class="songItem">
+            <span>04</span>
+            <img src="1.jpg" alt="" />
+            <h5>Kaho Na Kaho <br /></h5>
+            <i class="bi playlistplay bi-play-circle-fill" id="4"></i>
+          </li>
+
+          <li class="songItem">
+            <span>05</span>
+            <img src="1.jpg" alt="" />
+            <h5>Khali Salam Dua <br /></h5>
+            <i class="bi playlistplay bi-play-circle-fill" id="5"></i>
+          </li>
+
+          <li class="songItem">
+            <span>06</span>
+            <img src="1.jpg" alt="" />
+            <h5>Phir Mohabbat Karne <br /></h5>
+            <i class="bi playlistplay bi-play-circle-fill" id="6"></i>
+          </li>
+
+          <li class="songItem">
+            <span>07</span>
+            <img src="1.jpg" alt="" />
+            <h5>Teri Jhuki Nazar <br /></h5>
+            <i class="bi playlistplay bi-play-circle-fill" id="7"></i>
+          </li>
+
+          <li class="songItem">
+            <span>08</span>
+            <img src="1.jpg" alt="" />
+            <h5>Woh Lamhe Wo Baatien <br /></h5>
+            <i class="bi playlistplay bi-play-circle-fill" id="8"></i>
+          </li>
+
+          <li class="songItem">
+            <span>09</span>
+            <img src="1.jpg" alt="" />
+            <h5>Zindgi Aa Raha Hun Main <br /></h5>
+            <i class="bi playlistplay bi-play-circle-fill" id="9"></i>
+          </li>
+        </div>
+      </div>
+
+      <div class="songside">
+        <nav>
+          <ul>
+            <li>Discover <span></span></li>
+            <li>My Library</li>
+            <li>Radio</li>
+          </ul>
+          <div class="search">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search music...." />
+            <div class="searchresult">
+              <!--
+              <a href="" class="card">
+                <img src="1.jpg" alt="img" />
+                <div class="content">
+                  Be With You
+                </div>
+              </a>  -->
+            </div>
+          </div>
+          <div class="user">
+            <img src="1.jpg" alt="" />
+          </div>
+        </nav>
+        <div class="content">
+          <h1>Arijit-Singh-Best</h1>
+          <p>
+            Singh insists on the presence of lyricists during<br /> sessions for a
+            better understanding of the relevance<br /> of the words and
+            feelings behind a song.
+          </p>
+          <div class="button">
+            <button>Play</button>
+            <button>Follow</button>
+          </div>
+        </div>
+
+        <div class="popularsong">
+          <div class="h4">
+            <h4>Popular Songs</h4>
+            <div class="btns">
+              <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+              <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+            </div>
+          </div>
+          <div class="popsong">
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="10"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="11"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="12"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="13"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="14"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="15"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="16"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="17"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="18"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="19"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+
+            <li class="songItem">
+              <div class="imgplay">
+                <img src="1.jpg" alt="" />
+                <i class="bi playlistplay bi-play-circle-fill" id="20"></i>
+              </div>
+              <h5>Woh Lamhe</h5>
+            </li>
+          </div>
+          <div class="popularartist">
+            <div class="h4">
+              <h4>Popular Artist</h4>
+              <div class="btns">
+                <i class="bi bi-arrow-left-short" id="pop_art_left"></i>
+                <i class="bi bi-arrow-right-short" id="pop_art_right"></i>
+              </div>
+            </div>
+            <div class="item Artist_ax">
+              <li><img src="singerphoto/2.jpg" alt="" /></li>
+              <li><img src="singerphoto/3.jpg" alt="" /></li>
+              <li><img src="singerphoto/4.jpg" alt="" /></li>
+              <li><img src="singerphoto/5.jpg" alt="" /></li>
+              <li><img src="singerphoto/6.jpg" alt="" /></li>
+              <li><img src="singerphoto/7.jpg" alt="" /></li>
+              <li><img src="singerphoto/8.jpg" alt="" /></li>
+              <li><img src="singerphoto/9.jpg" alt="" /></li>
+              <li><img src="singerphoto/10.jpg" alt="" /></li>
+              <li><img src="singerphoto/11.jpg" alt="" /></li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="masterplay">
+        <div class="wave" id="wave">
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+        </div>
+
+        <img src="1.jpg" alt="" id="postermasterplay" />
+        <h5 id="title">Be With You</h5>
+        <div class="icons">
+          <i class="bi bi-skip-start-fill" id="back"></i>
+          <i class="bi bi-play-fill" id="masterplay"></i>
+          <i class="bi bi-skip-end-fill" id="next"></i>
+        </div>
+        <span id="currenttime">0:00</span>
+        <div class="bar">
+          <input type="range" id="seek" min="0" max="100" />
+          <div class="bar2" id="bar2"></div>
+          <div class="dot"></div>
+        </div>
+        <span id="endtime">0:30</span>
+        <div class="vol">
+          <i class="bi bi-volume-up-fill" id="volicon"></i>
+          <input type="range" id="vol" min="0" max="100" />
+          <div class="volbar"></div>
+          <div class="dot" id="voldot"></div>
+        </div>
+      </div>
+    </header>
+  </body>
+  <script src="script.js"></script> 
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+</html> 
